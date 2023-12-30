@@ -1,0 +1,74 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.btn {
+    background-color: #eb1ccc;
+    border: none;
+    transition: all .5s;
+}
+.btn:hover {
+    background-color: #ec48d4;
+    transform: translateY(-5px);
+}
+.title {
+    color: #eb1ccc;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.esconder {
+    display: none;
+}
+
+/* SECTION 1 */
+#section-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../img/hrz-5.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #000;
+}
+#section-1 p span {
+    color: #eb1ccc;
+    font-weight: bold;
+}
+#section-1 form {
+    background-color: #95989a;
+    color: #515151;
+}
+#section-1 label {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* SECTION 3 */
+#section-3 .card {
+    border: none;
+}
+#section-3 .card img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+#section-3 .card p {
+    font-size: .9rem;
+}
+
+/* SECTION 4 */
+#section-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../img/hrz-1.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+/* SECTION 6 */
+#section-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../img/hrz-6.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+@media (min-width: 768px) {
+    .esconder {
+        display: block;
+    }
+}
